@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "kafka.bootstrap-servers",
+      "type": "java.lang.String",
+      "description": "Kafka bootstrap servers",
+      "defaultValue": "localhost:9092"
+    },
+    {
+      "name": "kafka.group-id",
+      "type": "java.lang.String",
+      "description": "Kafka consumer group id",
+      "defaultValue": "group_id"
+    }
+  ]
+}
